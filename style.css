@@ -8,22 +8,40 @@ footer {
   padding: 10px 0;
   margin-top: 2rem;
 }
-//image wrapper
 
-img {
+
+
+p {
+  color: #1100ff;
+}
+
+
+a{
   border-radius:50%;
   max-width: 100%;
 
 display:block;
   height: auto;
+  width: 150px;
+  border-radius:50%;
+}
+.rootBeerFloatImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
 }
 
-rootBeerFloatImage {
+.chocoChipCookiesImage{
+   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 1rem auto;
 
-
-}
-
-chocoChipCookiesImage{
 
 }
 
