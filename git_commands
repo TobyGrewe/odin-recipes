@@ -1,0 +1,12 @@
+ git clone
+
+
+ git status
+
+ git add README.md
+
+
+ git commit -m "Your descriptive commit message here"
+
+
+git push origin main
