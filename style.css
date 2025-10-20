@@ -9,23 +9,26 @@ footer {
   margin-top: 2rem;
 }
 
-
-
+/* === Paragraphs === */
 p {
   color: #1100ff;
 }
 
-
-a{
-  border-radius:50%;
-  max-width: 100%;
-
-display:block;
-  height: auto;
-  width: 150px;
-  border-radius:50%;
+/* === Link Styling === */
+a {
+  text-decoration: none;
+  color: #8b4513;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
-.rootBeerFloatImage {
+
+a:hover {
+  color: #d2691e;
+}
+
+/* === Recipe Image Styling === */
+.rootBeerFloatImage,
+.chocoChipCookiesImage {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -34,14 +37,36 @@ display:block;
   margin: 1rem auto;
 }
 
-.chocoChipCookiesImage{
-   width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  display: block;
-  margin: 1rem auto;
-
-
+/* === List Items (recipe list) === */
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 2rem auto;
 }
 
+li {
+  background-color: #ffe5b4;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* === Heading === */
+h1 {
+  text-align: center;
+  color: #4a2c2a;
+  text-shadow: 2px 2px #f3e5ab;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* === Body === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
